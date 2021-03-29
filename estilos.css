@@ -14,10 +14,13 @@ header{
 nav{
     background: #ffc34b;
     text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
 }
 nav li{
     list-style: none;
     display: inline-block;
+    padding: 20px;
 }
 section{
     background: #e0489f;
@@ -25,17 +28,21 @@ section{
     width: 600px;
     float: left;
     padding: 20px;
+    border: 1px solid black;
 }
 img{
-    width: 150px;
+    width: 190px;
     float: left;
+    padding: 0px;
+    border: 5px solid white;
     
 }
 .articulo1{
-    width: 400px;
+    width: 560px;
     float: right;
     border: 1px solid black;
     padding: 20px;
+    margin-bottom: 15px;
 }
 
 .articulo2{
@@ -43,15 +50,18 @@ img{
     float: left;
     border: 1px solid black;
     padding: 20px;
+    
 }
 
 
 
 article {
     background: #00c0d9;
+    color: white;
 }
 aside {
     background: #6eeb83;
+    border: 1px solid black;
 }
 aside h2{
     text-align: center;
@@ -61,6 +71,7 @@ aside ul li {
 }
 aside p {
     padding: 20px;
+    text-align: center;
 }
 aside ul{
     padding: 20px;
@@ -70,4 +81,5 @@ aside ul{
 footer{
     background: #4f9ced;
     clear: both;
+    
 }
