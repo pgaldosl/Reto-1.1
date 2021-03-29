@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
+header,section,footer,aside,nav,article {
+   
+    display: block;
+}
 .agrupar{
     width: 960px;
+    margin: 15PX auto;
     
 }
 header{
@@ -20,14 +25,15 @@ nav{
 nav li{
     list-style: none;
     display: inline-block;
-    padding: 20px;
+    padding: 5px 15px;
+    font: bold 14px verdana;
 }
 section{
     background: #e0489f;
-    margin: 20px;
-    width: 600px;
+    
+    width: 560px;
     float: left;
-    padding: 20px;
+    padding:60px;
     border: 1px solid black;
 }
 img{
@@ -35,21 +41,22 @@ img{
     float: left;
     padding: 0px;
     border: 5px solid white;
+    margin: 5px;
     
 }
 .articulo1{
     width: 560px;
-    float: right;
+    
     border: 1px solid black;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 15px;
 }
 
 .articulo2{
     width: 560px;
-    float: left;
+    
     border: 1px solid black;
-    padding: 20px;
+    padding: 15px;
     
 }
 
@@ -62,6 +69,10 @@ article {
 aside {
     background: #6eeb83;
     border: 1px solid black;
+    padding: 10px;
+    width: 255px;
+    float: left;
+    
 }
 aside h2{
     text-align: center;
